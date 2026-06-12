@@ -1,0 +1,40 @@
+{
+  "amc": "HDFC Mutual Fund",
+  "schemes": [
+    {
+      "id": "hdfc_mid_cap",
+      "scheme_name": "HDFC Mid-Cap Opportunities Fund",
+      "url": "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth",
+      "category": "Equity - Mid Cap",
+      "risk_level": "Very High"
+    },
+    {
+      "id": "hdfc_large_cap",
+      "scheme_name": "HDFC Top 100 Fund (Large Cap)",
+      "url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
+      "category": "Equity - Large Cap",
+      "risk_level": "Very High"
+    },
+    {
+      "id": "hdfc_small_cap",
+      "scheme_name": "HDFC Small Cap Fund",
+      "url": "https://groww.in/mutual-funds/hdfc-small-cap-fund-direct-growth",
+      "category": "Equity - Small Cap",
+      "risk_level": "Very High"
+    },
+    {
+      "id": "hdfc_gold_foh",
+      "scheme_name": "HDFC Gold ETF Fund of Fund",
+      "url": "https://groww.in/mutual-funds/hdfc-gold-etf-fund-of-fund-direct-plan-growth",
+      "category": "Other - Gold",
+      "risk_level": "High"
+    },
+    {
+      "id": "hdfc_defence",
+      "scheme_name": "HDFC Defence Fund",
+      "url": "https://groww.in/mutual-funds/hdfc-defence-fund-direct-growth",
+      "category": "Equity - Thematic (Defence)",
+      "risk_level": "Very High"
+    }
+  ]
+}

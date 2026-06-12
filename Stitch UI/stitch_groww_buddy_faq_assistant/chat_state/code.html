@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0d1511;
+        }
+        .glass-nav {
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+        }
+        .custom-scrollbar::-webkit-scrollbar {
+            width: 4px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: transparent;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #2f3732;
+            border-radius: 10px;
+        }
+        .tap-highlight-transparent {
+            -webkit-tap-highlight-color: transparent;
+        }
+    </style>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-secondary-fixed-variant": "#42474f",
+                        "surface-variant": "#2f3732",
+                        "surface-container-low": "#161d19",
+                        "on-primary-fixed-variant": "#00513b",
+                        "on-tertiary-container": "#3d4a55",
+                        "on-surface": "#dce5de",
+                        "outline": "#85948c",
+                        "on-primary-container": "#00533c",
+                        "on-tertiary": "#25323c",
+                        "on-error": "#690005",
+                        "error-container": "#93000a",
+                        "on-error-container": "#ffdad6",
+                        "tertiary-fixed": "#d7e4f2",
+                        "secondary-fixed": "#dee2ec",
+                        "tertiary": "#c7d5e2",
+                        "surface-tint": "#2fe0aa",
+                        "primary-container": "#00d09c",
+                        "on-background": "#dce5de",
+                        "on-primary-fixed": "#002116",
+                        "surface-container": "#1a211d",
+                        "error": "#ffb4ab",
+                        "primary-fixed": "#59fdc5",
+                        "surface-container-lowest": "#08100c",
+                        "surface-dim": "#0d1511",
+                        "tertiary-container": "#acb9c6",
+                        "inverse-primary": "#006c4f",
+                        "surface-container-high": "#242c28",
+                        "surface-bright": "#333b37",
+                        "primary-fixed-dim": "#2fe0aa",
+                        "secondary": "#c2c7d0",
+                        "secondary-fixed-dim": "#c2c7d0",
+                        "background": "#0d1511",
+                        "on-secondary": "#2c3138",
+                        "outline-variant": "#3c4a43",
+                        "on-surface-variant": "#bacac1"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "margin-desktop": "2.5rem",
+                        "container-max-width": "1200px",
+                        "stack-sm": "0.5rem",
+                        "gutter": "1.5rem",
+                        "margin-mobile": "1rem",
+                        "stack-lg": "2rem",
+                        "stack-md": "1rem"
+                    },
+                    "fontFamily": {
+                        "headline-sm": ["Inter"],
+                        "headline-lg-mobile": ["Inter"],
+                        "label-md": ["Inter"],
+                        "body-lg": ["Inter"],
+                        "headline-md": ["Inter"],
+                        "headline-lg": ["Inter"],
+                        "label-sm": ["Inter"],
+                        "body-md": ["Inter"]
+                    },
+                    "fontSize": {
+                        "headline-sm": ["20px", {"lineHeight": "28px", "fontWeight": "600"}],
+                        "headline-lg-mobile": ["24px", {"lineHeight": "32px", "letterSpacing": "-0.01em", "fontWeight": "700"}],
+                        "label-md": ["12px", {"lineHeight": "16px", "letterSpacing": "0.01em", "fontWeight": "500"}],
+                        "body-lg": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                        "headline-md": ["24px", {"lineHeight": "32px", "letterSpacing": "-0.01em", "fontWeight": "600"}],
+                        "headline-lg": ["32px", {"lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                        "label-sm": ["10px", {"lineHeight": "14px", "letterSpacing": "0.04em", "fontWeight": "600"}],
+                        "body-md": ["14px", {"lineHeight": "20px", "fontWeight": "400"}]
+                    }
+                },
+            },
+        }
+    </script>
+</head>
+<body class="text-on-surface overflow-hidden">
+<!-- Top Navigation Bar -->
+<header class="fixed top-0 w-full z-50 bg-background/80 dark:bg-background/80 backdrop-blur-md border-b border-outline-variant">
+<div class="flex justify-between items-center h-16 px-margin-mobile md:px-margin-desktop max-w-container-max-width mx-auto">
+<div class="text-headline-md font-headline-md font-bold text-primary">Groww Buddy</div>
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-on-surface-variant cursor-pointer hover:text-primary transition-colors transition-all duration-200 active:scale-95" data-icon="notifications">notifications</span>
+<span class="material-symbols-outlined text-on-surface-variant cursor-pointer hover:text-primary transition-colors transition-all duration-200 active:scale-95" data-icon="account_circle">account_circle</span>
+</div>
+</div>
+</header>
+<!-- Advisory Warning Banner (Sticky below Nav) -->
+<div class="fixed top-16 left-0 w-full z-40 bg-surface-container-high/90 backdrop-blur-sm border-b border-outline-variant py-2">
+<div class="max-w-container-max-width mx-auto px-margin-mobile md:px-margin-desktop flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-primary text-[18px]" data-icon="info">info</span>
+<span class="font-label-md text-label-md text-on-surface-variant">Facts-only. No investment advice.</span>
+</div>
+</div>
+<!-- Main Chat Content -->
+<main class="h-screen pt-32 pb-32 overflow-y-auto custom-scrollbar">
+<div class="max-w-[800px] mx-auto px-margin-mobile md:px-margin-desktop flex flex-col gap-8">
+<!-- User Question -->
+<div class="flex justify-end w-full animate-in fade-in slide-in-from-right-4 duration-500">
+<div class="bg-secondary-container text-on-surface px-6 py-3 rounded-full rounded-tr-none max-w-[80%] shadow-sm border border-outline-variant">
+<p class="font-body-md text-body-md">What are the expense ratio limits for equity mutual funds?</p>
+</div>
+</div>
+<!-- AI Facts Card -->
+<div class="flex flex-col gap-3 animate-in fade-in slide-in-from-left-4 duration-700 delay-200">
+<div class="bg-[#1D2229] border border-outline-variant rounded-xl p-6 shadow-lg">
+<div class="flex items-center gap-2 mb-4">
+<div class="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center">
+<span class="material-symbols-outlined text-primary text-[16px]" data-icon="auto_awesome">auto_awesome</span>
+</div>
+<span class="font-label-md text-label-md text-primary tracking-wider uppercase">Verified Response</span>
+</div>
+<div class="space-y-4">
+<p class="font-body-md text-body-md text-on-surface leading-relaxed">
+                            Under SEBI regulations, the maximum Total Expense Ratio (TER) for equity-oriented mutual fund schemes is tiered based on the assets under management (AUM).
+                        </p>
+<ul class="space-y-2 list-disc pl-5 font-body-md text-body-md text-on-surface-variant">
+<li>On the first ₹500 crores of AUM: 2.25%</li>
+<li>On the next ₹250 crores of AUM: 2.00%</li>
+<li>On the next ₹1,250 crores of AUM: 1.75%</li>
+<li>On the next ₹3,000 crores of AUM: 1.60%</li>
+</ul>
+</div>
+<!-- Citations -->
+<div class="mt-6 pt-4 border-t border-outline-variant flex flex-wrap items-center gap-3">
+<a class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-primary/5 border border-primary/20 text-primary hover:bg-primary/10 transition-colors" href="#">
+<span class="material-symbols-outlined text-[14px]" data-icon="link">link</span>
+<span class="font-label-sm text-label-sm">🔗 Source: SEBI Master Circular 2024</span>
+</a>
+<span class="font-label-sm text-label-sm text-[#8F9CA9] ml-auto">Last updated from sources: 2026-06-10</span>
+</div>
+</div>
+</div>
+<!-- User Question (Advisory Attempt) -->
+<div class="flex justify-end w-full animate-in fade-in slide-in-from-right-4 duration-500 delay-500">
+<div class="bg-secondary-container text-on-surface px-6 py-3 rounded-full rounded-tr-none max-w-[80%] shadow-sm border border-outline-variant">
+<p class="font-body-md text-body-md">Should I sell my small cap funds now given the market peak?</p>
+</div>
+</div>
+<!-- Advisory Interception Alert -->
+<div class="animate-in zoom-in-95 fade-in duration-500 delay-700">
+<div class="bg-surface-container-highest border border-[#FF5A5A]/30 rounded-xl p-6 relative overflow-hidden">
+<div class="absolute top-0 left-0 w-1 h-full bg-[#FF5A5A]"></div>
+<div class="flex items-start gap-4">
+<div class="mt-1">
+<span class="material-symbols-outlined text-[#FF5A5A]" data-icon="gavel">gavel</span>
+</div>
+<div class="space-y-4">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-1">Advisory Restriction</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+                                    I am an information-only assistant. I cannot provide "Buy", "Sell", or "Hold" recommendations. Investment decisions should be based on your personal risk profile and financial goals.
+                                </p>
+</div>
+<div class="flex flex-wrap gap-3">
+<button class="px-4 py-2 rounded-full border border-outline-variant hover:bg-surface-variant text-on-surface font-label-md text-label-md flex items-center gap-2 transition-all active:scale-95">
+                                    Visit SEBI Investor Education
+                                    <span class="material-symbols-outlined text-[14px]" data-icon="open_in_new">open_in_new</span>
+</button>
+<button class="px-4 py-2 rounded-full border border-outline-variant hover:bg-surface-variant text-on-surface font-label-md text-label-md flex items-center gap-2 transition-all active:scale-95">
+                                    Visit AMFI India
+                                    <span class="material-symbols-outlined text-[14px]" data-icon="open_in_new">open_in_new</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+<!-- Bottom Fixed Input Area -->
+<div class="fixed bottom-0 left-0 w-full z-50 bg-background/95 backdrop-blur-xl border-t border-outline-variant pb-safe">
+<div class="max-w-[800px] mx-auto px-margin-mobile md:px-margin-desktop py-4">
+<div class="relative group">
+<div class="absolute inset-y-0 left-4 flex items-center pointer-events-none">
+<span class="material-symbols-outlined text-on-surface-variant group-focus-within:text-primary transition-colors" data-icon="search">search</span>
+</div>
+<input class="w-full h-14 pl-12 pr-14 bg-[#1D2229] border border-outline-variant rounded-full text-on-surface focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary transition-all placeholder:text-on-surface-variant/50 font-body-md" placeholder="Ask another question about mutual funds..." type="text"/>
+<button class="absolute inset-y-2 right-2 px-4 rounded-full bg-primary text-on-primary font-bold transition-all active:scale-90 hover:brightness-110 flex items-center justify-center">
+<span class="material-symbols-outlined" data-icon="send">send</span>
+</button>
+</div>
+<div class="flex justify-center mt-3 gap-6">
+<button class="text-label-sm font-label-sm text-on-surface-variant hover:text-primary transition-colors flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]" data-icon="history">history</span> Recent Questions
+                </button>
+<button class="text-label-sm font-label-sm text-on-surface-variant hover:text-primary transition-colors flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]" data-icon="bookmark">bookmark</span> Saved Snippets
+                </button>
+</div>
+</div>
+</div>
+<!-- Background Subtle Effect -->
+<div class="fixed inset-0 pointer-events-none -z-10 overflow-hidden">
+<div class="absolute -top-[10%] -left-[10%] w-[40%] h-[40%] rounded-full bg-primary/5 blur-[120px]"></div>
+<div class="absolute -bottom-[10%] -right-[10%] w-[40%] h-[40%] rounded-full bg-primary/5 blur-[120px]"></div>
+</div>
+<!-- Shared Bottom Nav for Mobile -->
+<nav class="md:hidden fixed bottom-0 left-0 w-full z-50 bg-surface-container dark:bg-surface-container border-t border-outline-variant shadow-sm flex justify-around items-center h-20 pb-safe px-4 hidden">
+<div class="flex flex-col items-center justify-center text-on-surface-variant hover:bg-surface-variant/50 tap-highlight-transparent transition-transform active:scale-90">
+<span class="material-symbols-outlined" data-icon="home">home</span>
+<span class="font-label-md text-label-md">Home</span>
+</div>
+<div class="flex flex-col items-center justify-center text-on-surface-variant hover:bg-surface-variant/50 tap-highlight-transparent transition-transform active:scale-90">
+<span class="material-symbols-outlined" data-icon="account_balance_wallet">account_balance_wallet</span>
+<span class="font-label-md text-label-md">Investments</span>
+</div>
+<div class="flex flex-col items-center justify-center text-on-surface-variant hover:bg-surface-variant/50 tap-highlight-transparent transition-transform active:scale-90">
+<span class="material-symbols-outlined" data-icon="search">search</span>
+<span class="font-label-md text-label-md">Explore</span>
+</div>
+<div class="flex flex-col items-center justify-center text-primary font-bold hover:bg-surface-variant/50 tap-highlight-transparent transition-transform active:scale-90">
+<span class="material-symbols-outlined" data-icon="chat_bubble">chat_bubble</span>
+<span class="font-label-md text-label-md">Chat</span>
+</div>
+</nav>
+<script>
+        // Micro-interactions for input and scrolls
+        const chatContainer = document.querySelector('main');
+        
+        // Auto-scroll to bottom on load
+        window.addEventListener('load', () => {
+            chatContainer.scrollTop = chatContainer.scrollHeight;
+        });
+
+        // Basic animation triggers on scroll
+        chatContainer.addEventListener('scroll', () => {
+            const header = document.querySelector('header');
+            if (chatContainer.scrollTop > 20) {
+                header.classList.add('shadow-md');
+            } else {
+                header.classList.remove('shadow-md');
+            }
+        });
+    </script>
+</body></html>
