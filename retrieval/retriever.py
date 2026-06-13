@@ -30,13 +30,48 @@ class MutualFundRetriever:
                     
         return None
 
+    def detect_query_topic(self, query: str) -> Optional[str]:
+        query_lower = query.lower()
+        if any(w in query_lower for w in ["manager", "managed", "who manages", "portfolio manager"]):
+            return "fund_managers"
+        if "benchmark" in query_lower:
+            return "scheme_information"
+        if any(w in query_lower for w in ["launch", "started", "inception", "when was", "established"]):
+            return "scheme_information"
+        if any(w in query_lower for w in ["objective", "goal", "aim", "seeks to", "investment strategy"]):
+            return "objective"
+        if "expense" in query_lower:
+            return "metrics"
+        if any(w in query_lower for w in ["exit", "load"]):
+            return "metrics"
+        if any(w in query_lower for w in ["aum", "assets", "size"]):
+            return "metrics"
+        if "nav" in query_lower:
+            return "metrics"
+        if any(w in query_lower for w in ["holding", "portfolio", "stock", "company", "companies", "shares"]):
+            return "holdings"
+        return None
+
     def retrieve(self, query: str, k: int = 3) -> List[Dict[str, Any]]:
         """
         Retrieves top k relevant documents with automatic scheme metadata filtering.
         """
         scheme_id = self.detect_scheme(query)
-        # Search FAISS index
-        return self.vector_store.similarity_search(query, k=k, filter_scheme_id=scheme_id)
+        
+        # Search FAISS index with larger k to get candidate chunks
+        candidates = self.vector_store.similarity_search(query, k=100, filter_scheme_id=scheme_id)
+        
+        # Detect query topic
+        topic = self.detect_query_topic(query)
+        if topic:
+            # Re-rank: prioritize chunks whose section_type matches the topic
+            matching_chunks = [c for c in candidates if c["metadata"].get("section_type") == topic]
+            other_chunks = [c for c in candidates if c["metadata"].get("section_type") != topic]
+            ordered_chunks = matching_chunks + other_chunks
+        else:
+            ordered_chunks = candidates
+            
+        return ordered_chunks[:k]
 
 if __name__ == "__main__":
     # Quick sanity check

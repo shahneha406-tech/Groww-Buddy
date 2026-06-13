@@ -1,5 +1,6 @@
 import os
 import requests
+import time
 from typing import List, Dict, Any
 from dotenv import load_dotenv
 
@@ -30,7 +31,7 @@ class GroqClient:
         system_instructions = """You are an expert facts-only Mutual Fund FAQ Assistant.
 Your task is to answer the user's question using ONLY the provided contexts. 
 Follow these strict rules:
-1. Base your answer strictly and exclusively on the provided contexts. Do not assume or extrapolate. If the contexts do not contain the factual answer, reply with exactly: "I cannot find this information in the official documents."
+1. Base your answer strictly and exclusively on the provided contexts. Do not assume or extrapolate. Note that the "Source" header of each context (e.g., "Source: HDFC Small Cap Fund > ...") explicitly identifies the mutual fund scheme that the text belongs to. If the contexts do not contain the factual answer, reply with exactly: "I cannot find this information in the official documents."
 2. Prohibit any advisory content. Do not recommend investing or not investing. Do not suggest one fund is better than another. Avoid any expressions of opinions.
 3. Be concise and write at most 3 sentences.
 4. Refuse requests containing personal identity information or financial advisory intent (e.g. asking for personal advice).
@@ -52,9 +53,29 @@ Follow these strict rules:
             "temperature": 0.0
         }
         
+        max_retries = 5
+        backoff = 2
+        response = None
+        for attempt in range(max_retries):
+            try:
+                response = requests.post(self.api_url, headers=headers, json=payload, timeout=15)
+                if response.status_code == 429:
+                    print(f"      [RATE LIMIT] generate_answer: 429 received. Retrying in {backoff}s...")
+                    time.sleep(backoff)
+                    backoff *= 2
+                    continue
+                response.raise_for_status()
+                break
+            except Exception as e:
+                if attempt == max_retries - 1:
+                    return f"Error generating answer: {str(e)}"
+                time.sleep(backoff)
+                backoff *= 2
+
+        if not response:
+            return "Error generating answer: request failed"
+
         try:
-            response = requests.post(self.api_url, headers=headers, json=payload, timeout=15)
-            response.raise_for_status()
             data = response.json()
             answer = data["choices"][0]["message"]["content"]
             return answer.strip()

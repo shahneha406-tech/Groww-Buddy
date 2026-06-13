@@ -1,6 +1,7 @@
 import os
 import re
 import requests
+import time
 from typing import Dict, Any
 
 class GuardrailsManager:
@@ -62,8 +63,9 @@ class GuardrailsManager:
         query_lower = query.lower().strip()
 
         # 1. Quick check for greetings/help
-        greetings_keywords = ["hi", "hello", "hey", "help", "good morning", "good afternoon", "good evening", "who are you", "what are you", "what can you do"]
-        if query_lower in greetings_keywords or any(query_lower.startswith(g + " ") for g in greetings_keywords) or query_lower == "help":
+        greetings_exact = {"hi", "hello", "hey", "help", "greetings", "good morning", "good afternoon", "good evening"}
+        greetings_prefixes = ["hi ", "hello ", "hey ", "good morning ", "good afternoon ", "good evening ", "who are you", "what are you", "what can you do"]
+        if query_lower in greetings_exact or any(query_lower.startswith(p) for p in greetings_prefixes):
             return "greetings"
 
         # 2. Quick Heuristic Scan for advisory
@@ -76,14 +78,34 @@ class GuardrailsManager:
             # Safe default fallback if no key is present (rely on heuristics)
             return "factual"
 
-        system_instructions = """You are an expert query classifier for a mutual fund facts database.
-Your task is to classify the user's query into one of four categories: "factual", "advisory", "greetings", or "out-of-scope".
-- "factual": The user is asking for specific data points, facts, rules, or information related to mutual funds, investing, or finance (specifically HDFC mutual funds, expense ratios, NAV, exit load, fund managers, holdings list, etc.).
-- "advisory": The user is asking for financial advice, recommendations, opinions, fund comparisons, suggestions on where to invest, or portfolio planning.
-- "greetings": The user is greeting the assistant (e.g., "hi", "hello", "hey", "good morning") or asking who the assistant is / what it does.
-- "out-of-scope": The user is asking about topics completely unrelated to mutual funds, investing, or finance (e.g., "What is Next Leap?", "How to make tea?", general knowledge, coding, politics, history, etc.).
+        system_instructions = """You are an expert query classifier for a mutual fund FAQ assistant.
+Your task is to classify the user's query into EXACTLY one of four categories: "factual", "advisory", "greetings", or "out-of-scope".
 
-Respond with EXACTLY one word: "factual", "advisory", "greetings", or "out-of-scope". Do not write any other explanation or punctuation."""
+Categories:
+- "greetings": The user is saying hello, greeting the assistant, or asking who/what the assistant is.
+- "advisory": The user is asking for financial advice, recommendations, suggestions on where to invest, comparative performance opinions, or portfolio building planning.
+- "out-of-scope": The user is asking about topics completely unrelated to mutual funds or finance (e.g. general knowledge, programming, baking, companies outside mutual funds like Next Leap, sports, etc.).
+- "factual": The user is asking for specific data points, facts, rules, or details directly available from mutual fund documents (e.g., fund managers, exit load, expense ratio, NAV, launch date, assets under management, holdings list, etc.).
+
+Examples:
+Query: "Hi there!" -> greetings
+Query: "what can you do?" -> greetings
+Query: "Should I invest in HDFC Small Cap Fund?" -> advisory
+Query: "Which fund has better returns: HDFC Mid-Cap or HDFC Top 100?" -> advisory
+Query: "Is HDFC Defence Fund a good choice for short term?" -> advisory
+Query: "Help me build an HDFC mutual fund portfolio." -> advisory
+Query: "Which of these funds has the lowest risk for investment?" -> advisory
+Query: "What is Next Leap?" -> out-of-scope
+Query: "How do you make a chocolate cake?" -> out-of-scope
+Query: "Write a python function to binary search an array." -> out-of-scope
+Query: "What is the capital of France?" -> out-of-scope
+Query: "What is the exit load of HDFC Defence Fund?" -> factual
+Query: "Who is the fund manager of HDFC Defence Fund?" -> factual
+Query: "What is the expense ratio of HDFC Defence Fund?" -> factual
+Query: "What is the benchmark of HDFC Defence Fund?" -> factual
+Query: "When was HDFC Defence Fund launched?" -> factual
+
+Respond with EXACTLY one word: "factual", "advisory", "greetings", or "out-of-scope". Do not include any other explanation, text, or punctuation. Output must be lowercase."""
 
         headers = {
             "Authorization": f"Bearer {self.api_key}",
@@ -99,9 +121,32 @@ Respond with EXACTLY one word: "factual", "advisory", "greetings", or "out-of-sc
             "temperature": 0.0
         }
 
+        max_retries = 5
+        backoff = 2
+        response = None
+        for attempt in range(max_retries):
+            try:
+                response = requests.post(self.api_url, headers=headers, json=payload, timeout=8)
+                if response.status_code == 429:
+                    print(f"      [RATE LIMIT] classify_intent: 429 received. Retrying in {backoff}s...")
+                    time.sleep(backoff)
+                    backoff *= 2
+                    continue
+                response.raise_for_status()
+                break
+            except Exception as e:
+                if attempt == max_retries - 1:
+                    print(f"[DEBUG] Guardrails classify_intent exception: {e}")
+                    import traceback
+                    traceback.print_exc()
+                    return "factual"
+                time.sleep(backoff)
+                backoff *= 2
+
+        if not response:
+            return "factual"
+
         try:
-            response = requests.post(self.api_url, headers=headers, json=payload, timeout=5)
-            response.raise_for_status()
             result = response.json()["choices"][0]["message"]["content"].strip().lower()
             if "advisory" in result:
                 return "advisory"
@@ -110,8 +155,8 @@ Respond with EXACTLY one word: "factual", "advisory", "greetings", or "out-of-sc
             elif "out-of-scope" in result or "out_of_scope" in result or "scope" in result:
                 return "out-of-scope"
             return "factual"
-        except Exception:
-            # Fallback to factual if API fails but heuristics are clean
+        except Exception as e:
+            print(f"[DEBUG] Guardrails parsing exception: {e}")
             return "factual"
 
 if __name__ == "__main__":
