@@ -19,6 +19,14 @@ class APIRequestHandler(BaseHTTPRequestHandler):
     def do_OPTIONS(self):
         self._set_headers(200)
 
+    def do_GET(self):
+        if self.path in ('/', '/health'):
+            self._set_headers(200)
+            self.wfile.write(json.dumps({"status": "healthy", "message": "Groww Buddy API Server is running!"}).encode('utf-8'))
+        else:
+            self._set_headers(404)
+            self.wfile.write(json.dumps({"error": "Not Found"}).encode('utf-8'))
+
     def do_POST(self):
         if self.path == '/api/query':
             try:
