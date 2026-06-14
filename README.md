@@ -23,3 +23,5 @@ Groww Buddy is a specialized RAG (Retrieval-Augmented Generation) QA assistant d
 ### Frontend (Vercel)
 * Configured to build from the `frontend/` subdirectory.
 * Uses `vercel.json` inside `frontend/` for SPA route handling.
+* **Important**: Ensure the **Root Directory** in the Vercel project settings is set to `frontend`, and the **Application Preset** (Framework Preset) is set to **Vite**.
+
