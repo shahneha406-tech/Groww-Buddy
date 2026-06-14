@@ -52,7 +52,7 @@ function App() {
       console.error(err);
       setMessages(prev => [...prev, { 
         sender: 'buddy', 
-        text: "Error connecting to the Groww Buddy API server. Please make sure the backend server python -m retrieval.api_server is running on port 8000." 
+        text: `Error connecting to the Groww Buddy API server at ${apiBase}. Please make sure the backend server is running and accessible.` 
       }]);
     } finally {
       setLoading(false);
