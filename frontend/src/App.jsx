@@ -31,8 +31,8 @@ function App() {
     setQuery('');
     setLoading(true);
 
+    const apiBase = import.meta.env.VITE_API_URL || 'http://localhost:8000';
     try {
-      const apiBase = import.meta.env.VITE_API_URL || 'http://localhost:8000';
       const response = await fetch(`${apiBase}/api/query`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
