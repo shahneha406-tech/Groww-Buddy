@@ -2,12 +2,12 @@
   "scheme_id": "hdfc_defence",
   "scheme_name": "HDFC Defence Fund Direct Growth",
   "url": "https://groww.in/mutual-funds/hdfc-defence-fund-direct-growth",
-  "scrape_date": "2026-06-14",
+  "scrape_date": "2026-06-15",
   "category": "Equity",
   "risk_level": "Very High",
   "benchmark_name": "Nifty India Defence Total Return Index",
-  "nav": 28.666,
-  "nav_date": "12-Jun-2026",
+  "nav": 29.122,
+  "nav_date": "15-Jun-2026",
   "expense_ratio": "0.89",
   "exit_load": "Exit load of 1%, if redeemed within 1 year.",
   "aum": 9724.27,
@@ -102,7 +102,7 @@
       "sector_name": "Industrials",
       "instrument_name": "Equity",
       "rating": null,
-      "corpus_per": 16.55
+      "corpus_per": 15.48
     },
     {
       "company_name": "Bharat Forge Ltd",
@@ -110,7 +110,7 @@
       "sector_name": "Consumer Discretionary",
       "instrument_name": "Equity",
       "rating": null,
-      "corpus_per": 14.57
+      "corpus_per": 14.39
     },
     {
       "company_name": "Hindustan Aeronautics Ltd",
@@ -118,7 +118,7 @@
       "sector_name": "Industrials",
       "instrument_name": "Equity",
       "rating": null,
-      "corpus_per": 12.96
+      "corpus_per": 12.06
     },
     {
       "company_name": "Solar Industries India Ltd",
@@ -126,15 +126,7 @@
       "sector_name": "Materials",
       "instrument_name": "Equity",
       "rating": null,
-      "corpus_per": 10.79
-    },
-    {
-      "company_name": "BEML Ltd",
-      "nature_name": "EQUITY",
-      "sector_name": "Industrials",
-      "instrument_name": "Equity",
-      "rating": null,
-      "corpus_per": 5.66
+      "corpus_per": 11.97
     },
     {
       "company_name": "MTAR Technologies Ltd",
@@ -142,7 +134,7 @@
       "sector_name": "Industrials",
       "instrument_name": "Equity",
       "rating": null,
-      "corpus_per": 5.66
+      "corpus_per": 6.08
     },
     {
       "company_name": "Astra Microwave Products Ltd",
@@ -150,15 +142,15 @@
       "sector_name": "Technology",
       "instrument_name": "Equity",
       "rating": null,
-      "corpus_per": 5.08
+      "corpus_per": 5.93
     },
     {
-      "company_name": "Bharat Dynamics Ltd",
+      "company_name": "BEML Ltd",
       "nature_name": "EQUITY",
       "sector_name": "Industrials",
       "instrument_name": "Equity",
       "rating": null,
-      "corpus_per": 4.49
+      "corpus_per": 5.06
     },
     {
       "company_name": "Eicher Motors Ltd",
@@ -166,7 +158,15 @@
       "sector_name": "Consumer Discretionary",
       "instrument_name": "Equity",
       "rating": null,
-      "corpus_per": 4.29
+      "corpus_per": 4.07
+    },
+    {
+      "company_name": "Bharat Dynamics Ltd",
+      "nature_name": "EQUITY",
+      "sector_name": "Industrials",
+      "instrument_name": "Equity",
+      "rating": null,
+      "corpus_per": 4.03
     },
     {
       "company_name": "Premier Explosives Ltd",
@@ -174,7 +174,7 @@
       "sector_name": "Materials",
       "instrument_name": "Equity",
       "rating": null,
-      "corpus_per": 2.87
+      "corpus_per": 3.31
     },
     {
       "company_name": "Mazagon Dock Shipbuilders Ltd",
@@ -182,23 +182,7 @@
       "sector_name": "Industrials",
       "instrument_name": "Equity",
       "rating": null,
-      "corpus_per": 2.68
-    },
-    {
-      "company_name": "Data Patterns (India) Ltd",
-      "nature_name": "EQUITY",
-      "sector_name": "Industrials",
-      "instrument_name": "Equity",
-      "rating": null,
-      "corpus_per": 2.37
-    },
-    {
-      "company_name": "Cyient DLM Ltd.",
-      "nature_name": "EQUITY",
-      "sector_name": "Industrials",
-      "instrument_name": "Equity",
-      "rating": null,
-      "corpus_per": 2.37
+      "corpus_per": 2.91
     },
     {
       "company_name": "Centum Electronics Ltd",
@@ -206,7 +190,15 @@
       "sector_name": "Industrials",
       "instrument_name": "Equity",
       "rating": null,
-      "corpus_per": 2.21
+      "corpus_per": 2.53
+    },
+    {
+      "company_name": "Cyient DLM Ltd.",
+      "nature_name": "EQUITY",
+      "sector_name": "Industrials",
+      "instrument_name": "Equity",
+      "rating": null,
+      "corpus_per": 2.38
     },
     {
       "company_name": "Bosch Ltd",
@@ -214,7 +206,15 @@
       "sector_name": "Consumer Discretionary",
       "instrument_name": "Equity",
       "rating": null,
-      "corpus_per": 2.15
+      "corpus_per": 2.31
+    },
+    {
+      "company_name": "Data Patterns (India) Ltd",
+      "nature_name": "EQUITY",
+      "sector_name": "Industrials",
+      "instrument_name": "Equity",
+      "rating": null,
+      "corpus_per": 2.2
     },
     {
       "company_name": "Repo",
@@ -222,23 +222,7 @@
       "sector_name": "Unspecified",
       "instrument_name": "Repo",
       "rating": null,
-      "corpus_per": 2.09
-    },
-    {
-      "company_name": "Power Mech Projects Ltd",
-      "nature_name": "EQUITY",
-      "sector_name": "Industrials",
-      "instrument_name": "Equity",
-      "rating": null,
-      "corpus_per": 0.83
-    },
-    {
-      "company_name": "Aequs Ltd.",
-      "nature_name": "EQUITY",
-      "sector_name": "Technology",
-      "instrument_name": "Equity",
-      "rating": null,
-      "corpus_per": 0.82
+      "corpus_per": 1.89
     },
     {
       "company_name": "SEDEMAC Mechatronics Ltd.",
@@ -246,23 +230,23 @@
       "sector_name": "Industrials",
       "instrument_name": "Equity",
       "rating": null,
-      "corpus_per": 0.8
+      "corpus_per": 0.88
     },
     {
-      "company_name": "Rishabh Instruments Ltd.",
+      "company_name": "Aequs Ltd.",
+      "nature_name": "EQUITY",
+      "sector_name": "Technology",
+      "instrument_name": "Equity",
+      "rating": null,
+      "corpus_per": 0.79
+    },
+    {
+      "company_name": "Power Mech Projects Ltd",
       "nature_name": "EQUITY",
       "sector_name": "Industrials",
       "instrument_name": "Equity",
       "rating": null,
-      "corpus_per": 0.3
-    },
-    {
-      "company_name": "JNK India Ltd.",
-      "nature_name": "EQUITY",
-      "sector_name": "Industrials",
-      "instrument_name": "Equity",
-      "rating": null,
-      "corpus_per": 0.22
+      "corpus_per": 0.78
     },
     {
       "company_name": "ideaForge Technology Ltd.",
@@ -270,7 +254,31 @@
       "sector_name": "Industrials",
       "instrument_name": "Equity",
       "rating": null,
+      "corpus_per": 0.28
+    },
+    {
+      "company_name": "Rishabh Instruments Ltd.",
+      "nature_name": "EQUITY",
+      "sector_name": "Industrials",
+      "instrument_name": "Equity",
+      "rating": null,
       "corpus_per": 0.21
+    },
+    {
+      "company_name": "JNK India Ltd.",
+      "nature_name": "EQUITY",
+      "sector_name": "Industrials",
+      "instrument_name": "Equity",
+      "rating": null,
+      "corpus_per": 0.21
+    },
+    {
+      "company_name": "Tata Motors Ltd",
+      "nature_name": "EQUITY",
+      "sector_name": "Industrials",
+      "instrument_name": "Equity",
+      "rating": null,
+      "corpus_per": 0.2
     },
     {
       "company_name": "Diffusion Engineers Ltd.",
@@ -286,7 +294,7 @@
       "sector_name": "Unspecified",
       "instrument_name": "Net Payables",
       "rating": null,
-      "corpus_per": -0.16
+      "corpus_per": -0.14
     }
   ],
   "faqs": [
@@ -300,11 +308,11 @@
     },
     {
       "question": "How much expense ratio is charged by HDFC Defence Fund Direct Growth?",
-      "answer": "The term Expense Ratio used for HDFC Defence Fund Direct Growth or any other mutual fund is the annual charges one needs to pay to the Mutual Fund company for managing your investments in that fund. The Expense Ratio of HDFC Defence Fund Direct Growth is 0.89% as of 14 Jun 2026..."
+      "answer": "The term Expense Ratio used for HDFC Defence Fund Direct Growth or any other mutual fund is the annual charges one needs to pay to the Mutual Fund company for managing your investments in that fund. The Expense Ratio of HDFC Defence Fund Direct Growth is 0.89% as of 16 Jun 2026..."
     },
     {
       "question": "What is the AUM of HDFC Defence Fund Direct Growth?",
-      "answer": "The AUM, short for Assets Under Management of HDFC Defence Fund Direct Growth is ₹9,724.27Cr as of 14 Jun 2026."
+      "answer": "The AUM, short for Assets Under Management of HDFC Defence Fund Direct Growth is ₹9,724.27Cr as of 16 Jun 2026."
     },
     {
       "question": "How to Redeem HDFC Defence Fund Direct Growth?",
@@ -316,7 +324,7 @@
     },
     {
       "question": "What is the NAV of HDFC Defence Fund Direct Growth?",
-      "answer": "The NAV of HDFC Defence Fund Direct Growth is ₹28.67 as of 12 Jun 2026."
+      "answer": "The NAV of HDFC Defence Fund Direct Growth is ₹29.12 as of 15 Jun 2026."
     },
     {
       "question": "What is the PE and PB ratio of HDFC Defence Fund Direct Growth?",
