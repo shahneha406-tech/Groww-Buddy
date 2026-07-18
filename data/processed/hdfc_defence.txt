@@ -10,7 +10,7 @@
 - **Lock-in Period**: None
 
 ## Fund Metrics
-- **Current NAV**: ₹29.948 (as of 16-Jul-2026)
+- **Current NAV**: ₹30.101 (as of 17-Jul-2026)
 - **Expense Ratio**: 0.87%
 - **Assets Under Management (AUM)**: ₹10,529.2483 Cr
 - **Minimum Investment (Lumpsum)**: ₹100
@@ -75,10 +75,10 @@ A: You can easily invest in HDFC Defence Fund Direct Growth in a hassle-free man
 A: The HDFC Defence Fund Direct Growth has been there from 02 Jun 2023 and the average annual returns provided by this fund is 42.08% since its inception.
 
 ### Q: How much expense ratio is charged by HDFC Defence Fund Direct Growth?
-A: The term Expense Ratio used for HDFC Defence Fund Direct Growth or any other mutual fund is the annual charges one needs to pay to the Mutual Fund company for managing your investments in that fund. The Expense Ratio of HDFC Defence Fund Direct Growth is 0.87% as of 17 Jul 2026...
+A: The term Expense Ratio used for HDFC Defence Fund Direct Growth or any other mutual fund is the annual charges one needs to pay to the Mutual Fund company for managing your investments in that fund. The Expense Ratio of HDFC Defence Fund Direct Growth is 0.87% as of 18 Jul 2026...
 
 ### Q: What is the AUM of HDFC Defence Fund Direct Growth?
-A: The AUM, short for Assets Under Management of HDFC Defence Fund Direct Growth is ₹10,529.25Cr as of 17 Jul 2026.
+A: The AUM, short for Assets Under Management of HDFC Defence Fund Direct Growth is ₹10,529.25Cr as of 18 Jul 2026.
 
 ### Q: How to Redeem HDFC Defence Fund Direct Growth?
 A: If you want to sell your HDFC Defence Fund Direct Growth holdings, go to your holding on the app or web and simply click on it. You will get two options - redeem & invest more; click on redeem and enter your desired amount or if you wish to redeem the entire holding amount then select the 'redeem all' checkbox.
@@ -87,7 +87,7 @@ A: If you want to sell your HDFC Defence Fund Direct Growth holdings, go to your
 A: You can select either SIP or Lumpsum investment of HDFC Defence Fund Direct Growth based on your investment objective and risk tolerance.
 
 ### Q: What is the NAV of HDFC Defence Fund Direct Growth?
-A: The NAV of HDFC Defence Fund Direct Growth is ₹29.95 as of 16 Jul 2026.
+A: The NAV of HDFC Defence Fund Direct Growth is ₹30.10 as of 17 Jul 2026.
 
 ### Q: What is the PE and PB ratio of HDFC Defence Fund Direct Growth?
 A: The PE ratio ratio of HDFC Defence Fund Direct Growth is determined by dividing the market price by its earnings per share and the PB ratio of the same is evaluated by dividing the stock price per share by its book value per share (BVPS).
