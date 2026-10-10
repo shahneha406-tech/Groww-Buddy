@@ -10,9 +10,9 @@
 - **Lock-in Period**: None
 
 ## Fund Metrics
-- **Current NAV**: ₹29.699 (as of 08-Oct-2026)
+- **Current NAV**: ₹29.843 (as of 09-Oct-2026)
 - **Expense Ratio**: 0.89%
-- **Assets Under Management (AUM)**: ₹11,477.5929 Cr
+- **Assets Under Management (AUM)**: ₹11,493.3887 Cr
 - **Minimum Investment (Lumpsum)**: ₹0
 - **Minimum SIP Investment**: ₹100
 - **Exit Load**: Exit load of 1%, if redeemed within 1 year.
@@ -42,32 +42,32 @@ The scheme seeks to provide long-term capital appreciation by investing predomin
 ## Top Holdings
 | Company | Sector | Nature | Instrument | Rating | Allocation (%) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| Bharat Electronics Ltd | Industrials | EQUITY | Equity | N/A | 15.17% |
-| Bharat Forge Ltd | Consumer Discretionary | EQUITY | Equity | N/A | 13.4% |
-| Hindustan Aeronautics Ltd | Industrials | EQUITY | Equity | N/A | 12.57% |
-| Solar Industries India Ltd | Materials | EQUITY | Equity | N/A | 10.77% |
-| Astra Microwave Products Ltd | Technology | EQUITY | Equity | N/A | 6.55% |
-| BEML Ltd | Industrials | EQUITY | Equity | N/A | 4.89% |
-| MTAR Technologies Ltd | Industrials | EQUITY | Equity | N/A | 4.6% |
-| Eicher Motors Ltd | Consumer Discretionary | EQUITY | Equity | N/A | 4.16% |
-| Bosch Ltd | Consumer Discretionary | EQUITY | Equity | N/A | 4.01% |
-| Mazagon Dock Shipbuilders Ltd | Industrials | EQUITY | Equity | N/A | 3.62% |
-| Bharat Dynamics Ltd | Industrials | EQUITY | Equity | N/A | 3.61% |
-| Cyient DLM Ltd. | Industrials | EQUITY | Equity | N/A | 2.94% |
-| Premier Explosives Ltd | Materials | EQUITY | Equity | N/A | 2.69% |
-| Centum Electronics Ltd | Industrials | EQUITY | Equity | N/A | 2.12% |
-| Data Patterns (India) Ltd | Industrials | EQUITY | Equity | N/A | 2.09% |
-| Repo | Unspecified | CASH | Repo | N/A | 1.93% |
-| Tata Motors Ltd | Industrials | EQUITY | Equity | N/A | 1.15% |
-| SEDEMAC Mechatronics Ltd. | Industrials | EQUITY | Equity | N/A | 1.07% |
-| ideaForge Technology Ltd. | Industrials | EQUITY | Equity | N/A | 0.84% |
-| Power Mech Projects Ltd | Industrials | EQUITY | Equity | N/A | 0.66% |
-| Cochin Shipyard Ltd | Industrials | EQUITY | Equity | N/A | 0.39% |
-| INDO-MIM Ltd. | Industrials | EQUITY | Equity | N/A | 0.25% |
-| Diffusion Engineers Ltd. | Industrials | EQUITY | Equity | N/A | 0.24% |
+| Bharat Electronics Ltd | Industrials | EQUITY | Equity | N/A | 14.87% |
+| Bharat Forge Ltd | Consumer Discretionary | EQUITY | Equity | N/A | 12.91% |
+| Hindustan Aeronautics Ltd | Industrials | EQUITY | Equity | N/A | 12.61% |
+| Solar Industries India Ltd | Materials | EQUITY | Equity | N/A | 10.28% |
+| Astra Microwave Products Ltd | Technology | EQUITY | Equity | N/A | 6.44% |
+| BEML Ltd | Industrials | EQUITY | Equity | N/A | 5.11% |
+| MTAR Technologies Ltd | Industrials | EQUITY | Equity | N/A | 5.09% |
+| Eicher Motors Ltd | Consumer Discretionary | EQUITY | Equity | N/A | 4.67% |
+| Bosch Ltd | Consumer Discretionary | EQUITY | Equity | N/A | 4.1% |
+| Bharat Dynamics Ltd | Industrials | EQUITY | Equity | N/A | 3.19% |
+| Cyient DLM Ltd. | Industrials | EQUITY | Equity | N/A | 3.18% |
+| Mazagon Dock Shipbuilders Ltd | Industrials | EQUITY | Equity | N/A | 3.17% |
+| Centum Electronics Ltd | Industrials | EQUITY | Equity | N/A | 2.95% |
+| Premier Explosives Ltd | Materials | EQUITY | Equity | N/A | 2.77% |
+| Repo | Unspecified | CASH | Repo | N/A | 2.33% |
+| Data Patterns (India) Ltd | Industrials | EQUITY | Equity | N/A | 1.98% |
+| SEDEMAC Mechatronics Ltd. | Industrials | EQUITY | Equity | N/A | 1.21% |
+| Tata Motors Ltd | Industrials | EQUITY | Equity | N/A | 1.07% |
+| ideaForge Technology Ltd. | Industrials | EQUITY | Equity | N/A | 0.77% |
+| Power Mech Projects Ltd | Industrials | EQUITY | Equity | N/A | 0.65% |
+| INDO-MIM Ltd. | Industrials | EQUITY | Equity | N/A | 0.36% |
+| Cochin Shipyard Ltd | Industrials | EQUITY | Equity | N/A | 0.34% |
+| Diffusion Engineers Ltd. | Industrials | EQUITY | Equity | N/A | 0.22% |
 | JNK India Ltd. | Industrials | EQUITY | Equity | N/A | 0.21% |
-| Aequs Ltd. | Technology | EQUITY | Equity | N/A | 0.11% |
-| Net Payables | Unspecified | CASH | Net Payables | N/A | -0.04% |
+| Aequs Ltd. | Technology | EQUITY | Equity | N/A | 0.12% |
+| Net Payables | Unspecified | CASH | Net Payables | N/A | -0.6% |
 
 ## Frequently Asked Questions
 ### Q: How to Invest in HDFC Defence Fund Direct Growth?
@@ -77,10 +77,10 @@ A: You can easily invest in HDFC Defence Fund Direct Growth in a hassle-free man
 A: The HDFC Defence Fund Direct Growth has been there from 02 Jun 2023 and the average annual returns provided by this fund is 38.35% since its inception.
 
 ### Q: How much expense ratio is charged by HDFC Defence Fund Direct Growth?
-A: The term Expense Ratio used for HDFC Defence Fund Direct Growth or any other mutual fund is the annual charges one needs to pay to the Mutual Fund company for managing your investments in that fund. The Expense Ratio of HDFC Defence Fund Direct Growth is 0.89% as of 09 Oct 2026...
+A: The term Expense Ratio used for HDFC Defence Fund Direct Growth or any other mutual fund is the annual charges one needs to pay to the Mutual Fund company for managing your investments in that fund. The Expense Ratio of HDFC Defence Fund Direct Growth is 0.89% as of 10 Oct 2026...
 
 ### Q: What is the AUM of HDFC Defence Fund Direct Growth?
-A: The AUM, short for Assets Under Management of HDFC Defence Fund Direct Growth is ₹11,477.59Cr as of 09 Oct 2026.
+A: The AUM, short for Assets Under Management of HDFC Defence Fund Direct Growth is ₹11,493.38Cr as of 10 Oct 2026.
 
 ### Q: How to Redeem HDFC Defence Fund Direct Growth?
 A: If you want to sell your HDFC Defence Fund Direct Growth holdings, go to your holding on the app or web and simply click on it. You will get two options - redeem & invest more; click on redeem and enter your desired amount or if you wish to redeem the entire holding amount then select the 'redeem all' checkbox.
@@ -89,7 +89,7 @@ A: If you want to sell your HDFC Defence Fund Direct Growth holdings, go to your
 A: You can select either SIP or Lumpsum investment of HDFC Defence Fund Direct Growth based on your investment objective and risk tolerance.
 
 ### Q: What is the NAV of HDFC Defence Fund Direct Growth?
-A: The NAV of HDFC Defence Fund Direct Growth is ₹29.70 as of 08 Oct 2026.
+A: The NAV of HDFC Defence Fund Direct Growth is ₹29.84 as of 09 Oct 2026.
 
 ### Q: What is the PE and PB ratio of HDFC Defence Fund Direct Growth?
 A: The PE ratio ratio of HDFC Defence Fund Direct Growth is determined by dividing the market price by its earnings per share and the PB ratio of the same is evaluated by dividing the stock price per share by its book value per share (BVPS).

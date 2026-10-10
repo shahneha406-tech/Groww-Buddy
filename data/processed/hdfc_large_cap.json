@@ -2,15 +2,15 @@
   "scheme_id": "hdfc_large_cap",
   "scheme_name": "HDFC Large Cap Fund Direct Growth",
   "url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
-  "scrape_date": "2026-10-09",
+  "scrape_date": "2026-10-10",
   "category": "Equity",
   "risk_level": "Very High",
   "benchmark_name": "NIFTY 100 Total Return Index",
-  "nav": 1140.674,
-  "nav_date": "08-Oct-2026",
+  "nav": 1152.946,
+  "nav_date": "09-Oct-2026",
   "expense_ratio": "1.04",
   "exit_load": "Exit load of 1% if redeemed within 1 year",
-  "aum": 39933.3663,
+  "aum": 37293.9508,
   "min_investment": 100,
   "min_sip": 100,
   "launch_date": "01-Jan-2013",
@@ -86,7 +86,7 @@
       "sector_name": "Financial",
       "instrument_name": "Equity",
       "rating": null,
-      "corpus_per": 10.05
+      "corpus_per": 9.79
     },
     {
       "company_name": "HDFC Bank Ltd",
@@ -94,7 +94,7 @@
       "sector_name": "Financial",
       "instrument_name": "Equity",
       "rating": null,
-      "corpus_per": 6.88
+      "corpus_per": 7.36
     },
     {
       "company_name": "Bharti Airtel Ltd",
@@ -102,7 +102,7 @@
       "sector_name": "Technology",
       "instrument_name": "Equity",
       "rating": null,
-      "corpus_per": 6.23
+      "corpus_per": 6.46
     },
     {
       "company_name": "Kotak Mahindra Bank Ltd",
@@ -110,7 +110,7 @@
       "sector_name": "Financial",
       "instrument_name": "Equity",
       "rating": null,
-      "corpus_per": 5.71
+      "corpus_per": 6.08
     },
     {
       "company_name": "Titan Company Ltd",
@@ -118,7 +118,7 @@
       "sector_name": "Consumer Discretionary",
       "instrument_name": "Equity",
       "rating": null,
-      "corpus_per": 5.27
+      "corpus_per": 5.07
     },
     {
       "company_name": "Reliance Industries Ltd",
@@ -126,7 +126,7 @@
       "sector_name": "Energy & Utilities",
       "instrument_name": "Equity",
       "rating": null,
-      "corpus_per": 4.78
+      "corpus_per": 4.76
     },
     {
       "company_name": "Torrent Pharmaceuticals Ltd",
@@ -134,7 +134,7 @@
       "sector_name": "Healthcare",
       "instrument_name": "Equity",
       "rating": null,
-      "corpus_per": 4.04
+      "corpus_per": 4.09
     },
     {
       "company_name": "Axis Bank Ltd",
@@ -142,7 +142,7 @@
       "sector_name": "Financial",
       "instrument_name": "Equity",
       "rating": null,
-      "corpus_per": 3.49
+      "corpus_per": 3.52
     },
     {
       "company_name": "Bajaj Finserv Ltd",
@@ -150,7 +150,7 @@
       "sector_name": "Financial",
       "instrument_name": "Equity",
       "rating": null,
-      "corpus_per": 3.33
+      "corpus_per": 3.05
     },
     {
       "company_name": "Bajaj Auto Ltd",
@@ -158,23 +158,7 @@
       "sector_name": "Consumer Discretionary",
       "instrument_name": "Equity",
       "rating": null,
-      "corpus_per": 2.93
-    },
-    {
-      "company_name": "Infosys Ltd",
-      "nature_name": "EQUITY",
-      "sector_name": "Technology",
-      "instrument_name": "Equity",
-      "rating": null,
-      "corpus_per": 2.76
-    },
-    {
-      "company_name": "Lupin Ltd",
-      "nature_name": "EQUITY",
-      "sector_name": "Healthcare",
-      "instrument_name": "Equity",
-      "rating": null,
-      "corpus_per": 2.53
+      "corpus_per": 2.81
     },
     {
       "company_name": "Zomato Ltd",
@@ -182,7 +166,23 @@
       "sector_name": "Technology",
       "instrument_name": "Equity",
       "rating": null,
-      "corpus_per": 2.49
+      "corpus_per": 2.6
+    },
+    {
+      "company_name": "Infosys Ltd",
+      "nature_name": "EQUITY",
+      "sector_name": "Technology",
+      "instrument_name": "Equity",
+      "rating": null,
+      "corpus_per": 2.59
+    },
+    {
+      "company_name": "Lupin Ltd",
+      "nature_name": "EQUITY",
+      "sector_name": "Healthcare",
+      "instrument_name": "Equity",
+      "rating": null,
+      "corpus_per": 2.51
     },
     {
       "company_name": "Cholamandalam Investment & Finance Company Ltd",
@@ -190,7 +190,7 @@
       "sector_name": "Financial",
       "instrument_name": "Equity",
       "rating": null,
-      "corpus_per": 2.44
+      "corpus_per": 2.28
     },
     {
       "company_name": "Ambuja Cements Ltd",
@@ -201,12 +201,12 @@
       "corpus_per": 2.24
     },
     {
-      "company_name": "Tata Motors Ltd",
+      "company_name": "Interglobe Aviation Ltd",
       "nature_name": "EQUITY",
       "sector_name": "Industrials",
       "instrument_name": "Equity",
       "rating": null,
-      "corpus_per": 2.02
+      "corpus_per": 2
     },
     {
       "company_name": "Larsen & Toubro Ltd",
@@ -214,28 +214,36 @@
       "sector_name": "Industrials",
       "instrument_name": "Equity",
       "rating": null,
-      "corpus_per": 1.99
+      "corpus_per": 1.98
     },
     {
-      "company_name": "Interglobe Aviation Ltd",
+      "company_name": "Tata Motors Ltd",
       "nature_name": "EQUITY",
       "sector_name": "Industrials",
       "instrument_name": "Equity",
       "rating": null,
-      "corpus_per": 1.97
-    },
-    {
-      "company_name": "State Bank of India",
-      "nature_name": "EQUITY",
-      "sector_name": "Financial",
-      "instrument_name": "Equity",
-      "rating": null,
-      "corpus_per": 1.89
+      "corpus_per": 1.94
     },
     {
       "company_name": "NTPC Ltd",
       "nature_name": "EQUITY",
       "sector_name": "Energy & Utilities",
+      "instrument_name": "Equity",
+      "rating": null,
+      "corpus_per": 1.93
+    },
+    {
+      "company_name": "Mankind Pharma Ltd.",
+      "nature_name": "EQUITY",
+      "sector_name": "Healthcare",
+      "instrument_name": "Equity",
+      "rating": null,
+      "corpus_per": 1.84
+    },
+    {
+      "company_name": "State Bank of India",
+      "nature_name": "EQUITY",
+      "sector_name": "Financial",
       "instrument_name": "Equity",
       "rating": null,
       "corpus_per": 1.83
@@ -246,7 +254,7 @@
       "sector_name": "Consumer Staples",
       "instrument_name": "Equity",
       "rating": null,
-      "corpus_per": 1.78
+      "corpus_per": 1.73
     },
     {
       "company_name": "Max Healthcare Institute Ltd",
@@ -254,23 +262,7 @@
       "sector_name": "Healthcare",
       "instrument_name": "Equity",
       "rating": null,
-      "corpus_per": 1.72
-    },
-    {
-      "company_name": "Mankind Pharma Ltd.",
-      "nature_name": "EQUITY",
-      "sector_name": "Healthcare",
-      "instrument_name": "Equity",
-      "rating": null,
-      "corpus_per": 1.66
-    },
-    {
-      "company_name": "Indusind Bank Ltd",
-      "nature_name": "EQUITY",
-      "sector_name": "Financial",
-      "instrument_name": "Equity",
-      "rating": null,
-      "corpus_per": 1.57
+      "corpus_per": 1.65
     },
     {
       "company_name": "ICICI Prudential Asset Management Company Ltd.",
@@ -278,7 +270,15 @@
       "sector_name": "Financial",
       "instrument_name": "Equity",
       "rating": null,
-      "corpus_per": 1.43
+      "corpus_per": 1.57
+    },
+    {
+      "company_name": "Indusind Bank Ltd",
+      "nature_name": "EQUITY",
+      "sector_name": "Financial",
+      "instrument_name": "Equity",
+      "rating": null,
+      "corpus_per": 1.49
     },
     {
       "company_name": "Vishal Mega Mart Ltd.",
@@ -286,15 +286,7 @@
       "sector_name": "Consumer Staples",
       "instrument_name": "Equity",
       "rating": null,
-      "corpus_per": 1.37
-    },
-    {
-      "company_name": "Havells India Ltd",
-      "nature_name": "EQUITY",
-      "sector_name": "Consumer Discretionary",
-      "instrument_name": "Equity",
-      "rating": null,
-      "corpus_per": 1.35
+      "corpus_per": 1.33
     },
     {
       "company_name": "Tata Consumer Products Ltd",
@@ -302,7 +294,7 @@
       "sector_name": "Consumer Staples",
       "instrument_name": "Equity",
       "rating": null,
-      "corpus_per": 1.31
+      "corpus_per": 1.29
     },
     {
       "company_name": "Swiggy Ltd.",
@@ -310,7 +302,7 @@
       "sector_name": "Technology",
       "instrument_name": "Equity",
       "rating": null,
-      "corpus_per": 1.3
+      "corpus_per": 1.24
     },
     {
       "company_name": "Hyundai Motor India Ltd.",
@@ -318,7 +310,7 @@
       "sector_name": "Consumer Discretionary",
       "instrument_name": "Equity",
       "rating": null,
-      "corpus_per": 1.21
+      "corpus_per": 1.19
     },
     {
       "company_name": "Repo",
@@ -326,23 +318,15 @@
       "sector_name": "Unspecified",
       "instrument_name": "Repo",
       "rating": null,
-      "corpus_per": 1.04
+      "corpus_per": 1.19
     },
     {
-      "company_name": "Eicher Motors Ltd",
+      "company_name": "Havells India Ltd",
       "nature_name": "EQUITY",
       "sector_name": "Consumer Discretionary",
       "instrument_name": "Equity",
       "rating": null,
-      "corpus_per": 1.03
-    },
-    {
-      "company_name": "SRF Ltd",
-      "nature_name": "EQUITY",
-      "sector_name": "Materials",
-      "instrument_name": "Equity",
-      "rating": null,
-      "corpus_per": 0.89
+      "corpus_per": 1.18
     },
     {
       "company_name": "Adani Ports and Special Economic Zone Ltd",
@@ -350,7 +334,23 @@
       "sector_name": "Industrials",
       "instrument_name": "Equity",
       "rating": null,
-      "corpus_per": 0.87
+      "corpus_per": 1.05
+    },
+    {
+      "company_name": "Eicher Motors Ltd",
+      "nature_name": "EQUITY",
+      "sector_name": "Consumer Discretionary",
+      "instrument_name": "Equity",
+      "rating": null,
+      "corpus_per": 0.99
+    },
+    {
+      "company_name": "SRF Ltd",
+      "nature_name": "EQUITY",
+      "sector_name": "Materials",
+      "instrument_name": "Equity",
+      "rating": null,
+      "corpus_per": 0.92
     },
     {
       "company_name": "TATA CAPITAL LIMITED EQ",
@@ -358,15 +358,7 @@
       "sector_name": "Financial",
       "instrument_name": "Equity",
       "rating": null,
-      "corpus_per": 0.75
-    },
-    {
-      "company_name": "SBI Funds Management Ltd",
-      "nature_name": "EQUITY",
-      "sector_name": "Financial",
-      "instrument_name": "Equity",
-      "rating": null,
-      "corpus_per": 0.67
+      "corpus_per": 0.72
     },
     {
       "company_name": "Dabur India Ltd",
@@ -374,15 +366,15 @@
       "sector_name": "Consumer Staples",
       "instrument_name": "Equity",
       "rating": null,
-      "corpus_per": 0.66
+      "corpus_per": 0.7
     },
     {
-      "company_name": "Mahindra & Mahindra Ltd",
+      "company_name": "SBI Funds Management Ltd",
       "nature_name": "EQUITY",
-      "sector_name": "Consumer Discretionary",
+      "sector_name": "Financial",
       "instrument_name": "Equity",
       "rating": null,
-      "corpus_per": 0.65
+      "corpus_per": 0.64
     },
     {
       "company_name": "CG Power & Industrial Solutions Ltd",
@@ -393,12 +385,20 @@
       "corpus_per": 0.62
     },
     {
+      "company_name": "Mahindra & Mahindra Ltd",
+      "nature_name": "EQUITY",
+      "sector_name": "Consumer Discretionary",
+      "instrument_name": "Equity",
+      "rating": null,
+      "corpus_per": 0.62
+    },
+    {
       "company_name": "GOVERNMENT OF INDIA 36185 GOI 07JL40 6.68 FV RS 100",
       "nature_name": "DEBT",
       "sector_name": "Entities",
       "instrument_name": "GOI Securities",
       "rating": null,
-      "corpus_per": 0.48
+      "corpus_per": 0.51
     },
     {
       "company_name": "Bharat Electronics Ltd",
@@ -422,7 +422,7 @@
       "sector_name": "Consumer Discretionary",
       "instrument_name": "Equity",
       "rating": null,
-      "corpus_per": 0.41
+      "corpus_per": 0.4
     },
     {
       "company_name": "DLF Ltd",
@@ -430,7 +430,7 @@
       "sector_name": "Real Estate",
       "instrument_name": "Equity",
       "rating": null,
-      "corpus_per": 0.37
+      "corpus_per": 0.38
     },
     {
       "company_name": "Cummins India Ltd",
@@ -449,12 +449,12 @@
       "corpus_per": 0.28
     },
     {
-      "company_name": "Maruti Suzuki India Ltd",
+      "company_name": "National Stock Exchange Of India Ltd Equity",
       "nature_name": "EQUITY",
-      "sector_name": "Consumer Discretionary",
+      "sector_name": "Financial",
       "instrument_name": "Equity",
       "rating": null,
-      "corpus_per": 0.24
+      "corpus_per": 0.25
     },
     {
       "company_name": "Hindalco Industries Ltd",
@@ -465,20 +465,12 @@
       "corpus_per": 0.23
     },
     {
-      "company_name": "SBI Life Insurance Company Ltd",
-      "nature_name": "EQUITY",
-      "sector_name": "Financial",
-      "instrument_name": "Equity",
-      "rating": null,
-      "corpus_per": 0.17
-    },
-    {
       "company_name": "Net Payables",
       "nature_name": "CASH",
       "sector_name": "Unspecified",
       "instrument_name": "Net Payables",
       "rating": null,
-      "corpus_per": -0.1
+      "corpus_per": -0.07
     }
   ],
   "faqs": [
@@ -492,11 +484,11 @@
     },
     {
       "question": "How much expense ratio is charged by HDFC Large Cap Fund Direct Growth?",
-      "answer": "The term Expense Ratio used for HDFC Large Cap Fund Direct Growth or any other mutual fund is the annual charges one needs to pay to the Mutual Fund company for managing your investments in that fund. The Expense Ratio of HDFC Large Cap Fund Direct Growth is 1.04% as of 09 Oct 2026..."
+      "answer": "The term Expense Ratio used for HDFC Large Cap Fund Direct Growth or any other mutual fund is the annual charges one needs to pay to the Mutual Fund company for managing your investments in that fund. The Expense Ratio of HDFC Large Cap Fund Direct Growth is 1.04% as of 10 Oct 2026..."
     },
     {
       "question": "What is the AUM of HDFC Large Cap Fund Direct Growth?",
-      "answer": "The AUM, short for Assets Under Management of HDFC Large Cap Fund Direct Growth is ₹39,933.36Cr as of 09 Oct 2026."
+      "answer": "The AUM, short for Assets Under Management of HDFC Large Cap Fund Direct Growth is ₹37,293.95Cr as of 10 Oct 2026."
     },
     {
       "question": "How to Redeem HDFC Large Cap Fund Direct Growth?",
@@ -508,7 +500,7 @@
     },
     {
       "question": "What is the NAV of HDFC Large Cap Fund Direct Growth?",
-      "answer": "The NAV of HDFC Large Cap Fund Direct Growth is ₹1,140.67 as of 08 Oct 2026."
+      "answer": "The NAV of HDFC Large Cap Fund Direct Growth is ₹1,152.95 as of 09 Oct 2026."
     },
     {
       "question": "What is the PE and PB ratio of HDFC Large Cap Fund Direct Growth?",

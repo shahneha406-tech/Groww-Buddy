@@ -2,15 +2,15 @@
   "scheme_id": "hdfc_mid_cap",
   "scheme_name": "HDFC Mid Cap Fund Direct Growth",
   "url": "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth",
-  "scrape_date": "2026-10-09",
+  "scrape_date": "2026-10-10",
   "category": "Equity",
   "risk_level": "Very High",
   "benchmark_name": "NIFTY Midcap 150 Total Return Index",
-  "nav": 217.078,
-  "nav_date": "08-Oct-2026",
+  "nav": 219.816,
+  "nav_date": "09-Oct-2026",
   "expense_ratio": "0.76",
   "exit_load": "Exit load of 1% if redeemed within 1 year.",
-  "aum": 108324.5467,
+  "aum": 101856.0604,
   "min_investment": 100,
   "min_sip": 100,
   "launch_date": "01-Jan-2013",
@@ -89,7 +89,7 @@
       "sector_name": "Unspecified",
       "instrument_name": "Repo",
       "rating": null,
-      "corpus_per": 6.91
+      "corpus_per": 8.37
     },
     {
       "company_name": "The Federal Bank Ltd",
@@ -97,7 +97,7 @@
       "sector_name": "Financial",
       "instrument_name": "Equity",
       "rating": null,
-      "corpus_per": 4.21
+      "corpus_per": 3.98
     },
     {
       "company_name": "AU Small Finance Bank Ltd",
@@ -105,7 +105,7 @@
       "sector_name": "Financial",
       "instrument_name": "Equity",
       "rating": null,
-      "corpus_per": 3.98
+      "corpus_per": 3.94
     },
     {
       "company_name": "Max Financial Services Ltd",
@@ -113,7 +113,7 @@
       "sector_name": "Financial",
       "instrument_name": "Equity",
       "rating": null,
-      "corpus_per": 3.79
+      "corpus_per": 3.52
     },
     {
       "company_name": "Ipca Laboratories Ltd",
@@ -121,7 +121,7 @@
       "sector_name": "Healthcare",
       "instrument_name": "Equity",
       "rating": null,
-      "corpus_per": 3.3
+      "corpus_per": 3.43
     },
     {
       "company_name": "Glenmark Pharmaceuticals Ltd",
@@ -132,20 +132,20 @@
       "corpus_per": 3.07
     },
     {
-      "company_name": "Indian Bank",
-      "nature_name": "EQUITY",
-      "sector_name": "Financial",
-      "instrument_name": "Equity",
-      "rating": null,
-      "corpus_per": 3.06
-    },
-    {
       "company_name": "Balkrishna Industries Ltd",
       "nature_name": "EQUITY",
       "sector_name": "Consumer Discretionary",
       "instrument_name": "Equity",
       "rating": null,
-      "corpus_per": 3.02
+      "corpus_per": 2.98
+    },
+    {
+      "company_name": "Indian Bank",
+      "nature_name": "EQUITY",
+      "sector_name": "Financial",
+      "instrument_name": "Equity",
+      "rating": null,
+      "corpus_per": 2.92
     },
     {
       "company_name": "Coforge Ltd",
@@ -153,7 +153,7 @@
       "sector_name": "Technology",
       "instrument_name": "Equity",
       "rating": null,
-      "corpus_per": 2.86
+      "corpus_per": 2.68
     },
     {
       "company_name": "Fortis Healthcare Ltd",
@@ -161,15 +161,7 @@
       "sector_name": "Healthcare",
       "instrument_name": "Equity",
       "rating": null,
-      "corpus_per": 2.69
-    },
-    {
-      "company_name": "Vishal Mega Mart Ltd.",
-      "nature_name": "EQUITY",
-      "sector_name": "Consumer Staples",
-      "instrument_name": "Equity",
-      "rating": null,
-      "corpus_per": 2.31
+      "corpus_per": 2.4
     },
     {
       "company_name": "Marico Ltd",
@@ -177,15 +169,15 @@
       "sector_name": "Consumer Staples",
       "instrument_name": "Equity",
       "rating": null,
-      "corpus_per": 2.29
+      "corpus_per": 2.37
     },
     {
-      "company_name": "Mahindra & Mahindra Financial Services Ltd",
+      "company_name": "Vishal Mega Mart Ltd.",
       "nature_name": "EQUITY",
-      "sector_name": "Financial",
+      "sector_name": "Consumer Staples",
       "instrument_name": "Equity",
       "rating": null,
-      "corpus_per": 2.28
+      "corpus_per": 2.24
     },
     {
       "company_name": "Aurobindo Pharma Ltd",
@@ -193,7 +185,15 @@
       "sector_name": "Healthcare",
       "instrument_name": "Equity",
       "rating": null,
-      "corpus_per": 2.12
+      "corpus_per": 2.19
+    },
+    {
+      "company_name": "Mahindra & Mahindra Financial Services Ltd",
+      "nature_name": "EQUITY",
+      "sector_name": "Financial",
+      "instrument_name": "Equity",
+      "rating": null,
+      "corpus_per": 2.11
     },
     {
       "company_name": "Hindustan Petroleum Corporation Ltd",
@@ -201,7 +201,7 @@
       "sector_name": "Energy & Utilities",
       "instrument_name": "Equity",
       "rating": null,
-      "corpus_per": 2.05
+      "corpus_per": 2.09
     },
     {
       "company_name": "United Spirits Ltd",
@@ -209,7 +209,7 @@
       "sector_name": "Consumer Staples",
       "instrument_name": "Equity",
       "rating": null,
-      "corpus_per": 1.93
+      "corpus_per": 1.9
     },
     {
       "company_name": "Cummins India Ltd",
@@ -217,7 +217,15 @@
       "sector_name": "Industrials",
       "instrument_name": "Equity",
       "rating": null,
-      "corpus_per": 1.92
+      "corpus_per": 1.82
+    },
+    {
+      "company_name": "Tata Communications Ltd",
+      "nature_name": "EQUITY",
+      "sector_name": "Technology",
+      "instrument_name": "Equity",
+      "rating": null,
+      "corpus_per": 1.81
     },
     {
       "company_name": "Persistent Systems Ltd",
@@ -228,44 +236,12 @@
       "corpus_per": 1.78
     },
     {
-      "company_name": "Tata Communications Ltd",
-      "nature_name": "EQUITY",
-      "sector_name": "Technology",
-      "instrument_name": "Equity",
-      "rating": null,
-      "corpus_per": 1.77
-    },
-    {
-      "company_name": "Apollo Tyres Ltd",
-      "nature_name": "EQUITY",
-      "sector_name": "Consumer Discretionary",
-      "instrument_name": "Equity",
-      "rating": null,
-      "corpus_per": 1.7
-    },
-    {
-      "company_name": "PB Fintech Ltd",
-      "nature_name": "EQUITY",
-      "sector_name": "Financial",
-      "instrument_name": "Equity",
-      "rating": null,
-      "corpus_per": 1.69
-    },
-    {
-      "company_name": "Jindal Steel & Power Ltd",
-      "nature_name": "EQUITY",
-      "sector_name": "Materials",
-      "instrument_name": "Equity",
-      "rating": null,
-      "corpus_per": 1.62
-    },
-    {
       "company_name": "Gland Pharma Ltd",
       "nature_name": "EQUITY",
       "sector_name": "Healthcare",
       "instrument_name": "Equity",
       "rating": null,
-      "corpus_per": 1.62
+      "corpus_per": 1.73
     },
     {
       "company_name": "Alkem Laboratories Ltd",
@@ -273,23 +249,7 @@
       "sector_name": "Healthcare",
       "instrument_name": "Equity",
       "rating": null,
-      "corpus_per": 1.61
-    },
-    {
-      "company_name": "Mphasis Ltd",
-      "nature_name": "EQUITY",
-      "sector_name": "Technology",
-      "instrument_name": "Equity",
-      "rating": null,
-      "corpus_per": 1.61
-    },
-    {
-      "company_name": "Union Bank of India",
-      "nature_name": "EQUITY",
-      "sector_name": "Financial",
-      "instrument_name": "Equity",
-      "rating": null,
-      "corpus_per": 1.57
+      "corpus_per": 1.72
     },
     {
       "company_name": "Dabur India Ltd",
@@ -297,7 +257,39 @@
       "sector_name": "Consumer Staples",
       "instrument_name": "Equity",
       "rating": null,
-      "corpus_per": 1.47
+      "corpus_per": 1.66
+    },
+    {
+      "company_name": "Apollo Tyres Ltd",
+      "nature_name": "EQUITY",
+      "sector_name": "Consumer Discretionary",
+      "instrument_name": "Equity",
+      "rating": null,
+      "corpus_per": 1.66
+    },
+    {
+      "company_name": "Jindal Steel & Power Ltd",
+      "nature_name": "EQUITY",
+      "sector_name": "Materials",
+      "instrument_name": "Equity",
+      "rating": null,
+      "corpus_per": 1.64
+    },
+    {
+      "company_name": "Mphasis Ltd",
+      "nature_name": "EQUITY",
+      "sector_name": "Technology",
+      "instrument_name": "Equity",
+      "rating": null,
+      "corpus_per": 1.55
+    },
+    {
+      "company_name": "Union Bank of India",
+      "nature_name": "EQUITY",
+      "sector_name": "Financial",
+      "instrument_name": "Equity",
+      "rating": null,
+      "corpus_per": 1.51
     },
     {
       "company_name": "Bosch Ltd",
@@ -308,12 +300,12 @@
       "corpus_per": 1.44
     },
     {
-      "company_name": "Delhivery Ltd",
+      "company_name": "Zomato Ltd",
       "nature_name": "EQUITY",
-      "sector_name": "Industrials",
+      "sector_name": "Technology",
       "instrument_name": "Equity",
       "rating": null,
-      "corpus_per": 1.33
+      "corpus_per": 1.35
     },
     {
       "company_name": "AIA Engineering Ltd",
@@ -321,15 +313,15 @@
       "sector_name": "Industrials",
       "instrument_name": "Equity",
       "rating": null,
-      "corpus_per": 1.33
+      "corpus_per": 1.29
     },
     {
-      "company_name": "Zomato Ltd",
+      "company_name": "Delhivery Ltd",
       "nature_name": "EQUITY",
-      "sector_name": "Technology",
+      "sector_name": "Industrials",
       "instrument_name": "Equity",
       "rating": null,
-      "corpus_per": 1.3
+      "corpus_per": 1.27
     },
     {
       "company_name": "Karur Vysya Bank Ltd",
@@ -337,7 +329,7 @@
       "sector_name": "Financial",
       "instrument_name": "Equity",
       "rating": null,
-      "corpus_per": 1.26
+      "corpus_per": 1.25
     },
     {
       "company_name": "Bharat Forge Ltd",
@@ -345,23 +337,7 @@
       "sector_name": "Consumer Discretionary",
       "instrument_name": "Equity",
       "rating": null,
-      "corpus_per": 1.25
-    },
-    {
-      "company_name": "Indusind Bank Ltd",
-      "nature_name": "EQUITY",
-      "sector_name": "Financial",
-      "instrument_name": "Equity",
-      "rating": null,
-      "corpus_per": 1.11
-    },
-    {
-      "company_name": "Nippon Life India Asset Management Ltd",
-      "nature_name": "EQUITY",
-      "sector_name": "Financial",
-      "instrument_name": "Equity",
-      "rating": null,
-      "corpus_per": 1.08
+      "corpus_per": 1.22
     },
     {
       "company_name": "Coromandel International Ltd",
@@ -369,7 +345,15 @@
       "sector_name": "Materials",
       "instrument_name": "Equity",
       "rating": null,
-      "corpus_per": 1.08
+      "corpus_per": 1.19
+    },
+    {
+      "company_name": "Redington Ltd",
+      "nature_name": "EQUITY",
+      "sector_name": "Technology",
+      "instrument_name": "Equity",
+      "rating": null,
+      "corpus_per": 1.1
     },
     {
       "company_name": "Star Health & Allied Insurance Co. Ltd",
@@ -380,44 +364,36 @@
       "corpus_per": 1.08
     },
     {
+      "company_name": "PB Fintech Ltd",
+      "nature_name": "EQUITY",
+      "sector_name": "Financial",
+      "instrument_name": "Equity",
+      "rating": null,
+      "corpus_per": 1.07
+    },
+    {
+      "company_name": "Indusind Bank Ltd",
+      "nature_name": "EQUITY",
+      "sector_name": "Financial",
+      "instrument_name": "Equity",
+      "rating": null,
+      "corpus_per": 1.04
+    },
+    {
+      "company_name": "Nippon Life India Asset Management Ltd",
+      "nature_name": "EQUITY",
+      "sector_name": "Financial",
+      "instrument_name": "Equity",
+      "rating": null,
+      "corpus_per": 1.04
+    },
+    {
       "company_name": "The Indian Hotels Company Ltd",
       "nature_name": "EQUITY",
       "sector_name": "Consumer Discretionary",
       "instrument_name": "Equity",
       "rating": null,
-      "corpus_per": 0.96
-    },
-    {
-      "company_name": "Redington Ltd",
-      "nature_name": "EQUITY",
-      "sector_name": "Technology",
-      "instrument_name": "Equity",
-      "rating": null,
-      "corpus_per": 0.91
-    },
-    {
-      "company_name": "Havells India Ltd",
-      "nature_name": "EQUITY",
-      "sector_name": "Consumer Discretionary",
-      "instrument_name": "Equity",
-      "rating": null,
-      "corpus_per": 0.9
-    },
-    {
-      "company_name": "ICICI Lombard General Insurance Company Ltd",
-      "nature_name": "EQUITY",
-      "sector_name": "Financial",
-      "instrument_name": "Equity",
-      "rating": null,
-      "corpus_per": 0.87
-    },
-    {
-      "company_name": "Aster DM Healthcare Ltd",
-      "nature_name": "EQUITY",
-      "sector_name": "Healthcare",
-      "instrument_name": "Equity",
-      "rating": null,
-      "corpus_per": 0.84
+      "corpus_per": 1.01
     },
     {
       "company_name": "Godrej Consumer Products Ltd",
@@ -425,12 +401,36 @@
       "sector_name": "Consumer Staples",
       "instrument_name": "Equity",
       "rating": null,
-      "corpus_per": 0.82
+      "corpus_per": 0.98
     },
     {
-      "company_name": "Escorts Kubota Ltd",
+      "company_name": "ICICI Lombard General Insurance Company Ltd",
       "nature_name": "EQUITY",
-      "sector_name": "Industrials",
+      "sector_name": "Financial",
+      "instrument_name": "Equity",
+      "rating": null,
+      "corpus_per": 0.95
+    },
+    {
+      "company_name": "Aster DM Healthcare Ltd",
+      "nature_name": "EQUITY",
+      "sector_name": "Healthcare",
+      "instrument_name": "Equity",
+      "rating": null,
+      "corpus_per": 0.9
+    },
+    {
+      "company_name": "Havells India Ltd",
+      "nature_name": "EQUITY",
+      "sector_name": "Consumer Discretionary",
+      "instrument_name": "Equity",
+      "rating": null,
+      "corpus_per": 0.84
+    },
+    {
+      "company_name": "Sona BLW Precision Forgings Ltd",
+      "nature_name": "EQUITY",
+      "sector_name": "Consumer Discretionary",
       "instrument_name": "Equity",
       "rating": null,
       "corpus_per": 0.82
@@ -441,7 +441,15 @@
       "sector_name": "Industrials",
       "instrument_name": "Equity",
       "rating": null,
-      "corpus_per": 0.8
+      "corpus_per": 0.81
+    },
+    {
+      "company_name": "Escorts Kubota Ltd",
+      "nature_name": "EQUITY",
+      "sector_name": "Industrials",
+      "instrument_name": "Equity",
+      "rating": null,
+      "corpus_per": 0.79
     },
     {
       "company_name": "HEXAWARE TECHNOLOGIES LIMITED EQ NEW FV RS.2/-",
@@ -449,31 +457,7 @@
       "sector_name": "Technology",
       "instrument_name": "Equity",
       "rating": null,
-      "corpus_per": 0.76
-    },
-    {
-      "company_name": "Sona BLW Precision Forgings Ltd",
-      "nature_name": "EQUITY",
-      "sector_name": "Consumer Discretionary",
-      "instrument_name": "Equity",
-      "rating": null,
-      "corpus_per": 0.76
-    },
-    {
-      "company_name": "Indraprastha Gas Ltd",
-      "nature_name": "EQUITY",
-      "sector_name": "Energy & Utilities",
-      "instrument_name": "Equity",
-      "rating": null,
-      "corpus_per": 0.71
-    },
-    {
-      "company_name": "Dixon Technologies (India) Ltd",
-      "nature_name": "EQUITY",
-      "sector_name": "Consumer Discretionary",
-      "instrument_name": "Equity",
-      "rating": null,
-      "corpus_per": 0.71
+      "corpus_per": 0.78
     },
     {
       "company_name": "City Union Bank Ltd",
@@ -481,7 +465,23 @@
       "sector_name": "Financial",
       "instrument_name": "Equity",
       "rating": null,
-      "corpus_per": 0.71
+      "corpus_per": 0.74
+    },
+    {
+      "company_name": "Indraprastha Gas Ltd",
+      "nature_name": "EQUITY",
+      "sector_name": "Energy & Utilities",
+      "instrument_name": "Equity",
+      "rating": null,
+      "corpus_per": 0.73
+    },
+    {
+      "company_name": "Dixon Technologies (India) Ltd",
+      "nature_name": "EQUITY",
+      "sector_name": "Consumer Discretionary",
+      "instrument_name": "Equity",
+      "rating": null,
+      "corpus_per": 0.66
     },
     {
       "company_name": "SKF India (Industrial) Ltd",
@@ -489,15 +489,15 @@
       "sector_name": "Industrials",
       "instrument_name": "Equity",
       "rating": null,
-      "corpus_per": 0.65
+      "corpus_per": 0.64
     },
     {
-      "company_name": "Crompton Greaves Consumer Electricals Ltd",
+      "company_name": "Timken India Ltd",
       "nature_name": "EQUITY",
-      "sector_name": "Consumer Discretionary",
+      "sector_name": "Industrials",
       "instrument_name": "Equity",
       "rating": null,
-      "corpus_per": 0.63
+      "corpus_per": 0.6
     },
     {
       "company_name": "Gujarat Fluorochemicals Ltd",
@@ -508,12 +508,20 @@
       "corpus_per": 0.6
     },
     {
-      "company_name": "Timken India Ltd",
+      "company_name": "Crompton Greaves Consumer Electricals Ltd",
       "nature_name": "EQUITY",
-      "sector_name": "Industrials",
+      "sector_name": "Consumer Discretionary",
       "instrument_name": "Equity",
       "rating": null,
-      "corpus_per": 0.57
+      "corpus_per": 0.59
+    },
+    {
+      "company_name": "Supreme Industries Ltd",
+      "nature_name": "EQUITY",
+      "sector_name": "Materials",
+      "instrument_name": "Equity",
+      "rating": null,
+      "corpus_per": 0.56
     },
     {
       "company_name": "ACC Ltd",
@@ -524,36 +532,12 @@
       "corpus_per": 0.56
     },
     {
-      "company_name": "Supreme Industries Ltd",
-      "nature_name": "EQUITY",
-      "sector_name": "Materials",
-      "instrument_name": "Equity",
-      "rating": null,
-      "corpus_per": 0.54
-    },
-    {
       "company_name": "Arvind Ltd",
       "nature_name": "EQUITY",
       "sector_name": "Consumer Discretionary",
       "instrument_name": "Equity",
       "rating": null,
-      "corpus_per": 0.42
-    },
-    {
-      "company_name": "Oracle Financial Services Software Ltd",
-      "nature_name": "EQUITY",
-      "sector_name": "Technology",
-      "instrument_name": "Equity",
-      "rating": null,
-      "corpus_per": 0.39
-    },
-    {
-      "company_name": "Aarti Industries Ltd",
-      "nature_name": "EQUITY",
-      "sector_name": "Materials",
-      "instrument_name": "Equity",
-      "rating": null,
-      "corpus_per": 0.37
+      "corpus_per": 0.43
     },
     {
       "company_name": "Petronet LNG Ltd",
@@ -564,20 +548,28 @@
       "corpus_per": 0.36
     },
     {
+      "company_name": "Oracle Financial Services Software Ltd",
+      "nature_name": "EQUITY",
+      "sector_name": "Technology",
+      "instrument_name": "Equity",
+      "rating": null,
+      "corpus_per": 0.36
+    },
+    {
+      "company_name": "Aarti Industries Ltd",
+      "nature_name": "EQUITY",
+      "sector_name": "Materials",
+      "instrument_name": "Equity",
+      "rating": null,
+      "corpus_per": 0.36
+    },
+    {
       "company_name": "SKF India Ltd",
       "nature_name": "EQUITY",
       "sector_name": "Industrials",
       "instrument_name": "Equity",
       "rating": null,
-      "corpus_per": 0.34
-    },
-    {
-      "company_name": "Vardhman Textiles Ltd",
-      "nature_name": "EQUITY",
-      "sector_name": "Consumer Discretionary",
-      "instrument_name": "Equity",
-      "rating": null,
-      "corpus_per": 0.33
+      "corpus_per": 0.35
     },
     {
       "company_name": "Cholamandalam Financial Holdings Ltd",
@@ -588,12 +580,12 @@
       "corpus_per": 0.31
     },
     {
-      "company_name": "KEC International Ltd",
+      "company_name": "Vardhman Textiles Ltd",
       "nature_name": "EQUITY",
-      "sector_name": "Diversified",
+      "sector_name": "Consumer Discretionary",
       "instrument_name": "Equity",
       "rating": null,
-      "corpus_per": 0.31
+      "corpus_per": 0.3
     },
     {
       "company_name": "Vesuvius India Ltd",
@@ -601,7 +593,15 @@
       "sector_name": "Industrials",
       "instrument_name": "Equity",
       "rating": null,
-      "corpus_per": 0.27
+      "corpus_per": 0.3
+    },
+    {
+      "company_name": "KEC International Ltd",
+      "nature_name": "EQUITY",
+      "sector_name": "Diversified",
+      "instrument_name": "Equity",
+      "rating": null,
+      "corpus_per": 0.3
     },
     {
       "company_name": "Mahindra CIE Automotive Ltd",
@@ -609,12 +609,20 @@
       "sector_name": "Consumer Discretionary",
       "instrument_name": "Equity",
       "rating": null,
-      "corpus_per": 0.26
+      "corpus_per": 0.27
     },
     {
       "company_name": "Symphony Ltd",
       "nature_name": "EQUITY",
       "sector_name": "Consumer Discretionary",
+      "instrument_name": "Equity",
+      "rating": null,
+      "corpus_per": 0.21
+    },
+    {
+      "company_name": "Five-Star Business Finance Ltd",
+      "nature_name": "EQUITY",
+      "sector_name": "Financial",
       "instrument_name": "Equity",
       "rating": null,
       "corpus_per": 0.2
@@ -628,20 +636,12 @@
       "corpus_per": 0.19
     },
     {
-      "company_name": "Five-Star Business Finance Ltd",
-      "nature_name": "EQUITY",
-      "sector_name": "Financial",
-      "instrument_name": "Equity",
-      "rating": null,
-      "corpus_per": 0.19
-    },
-    {
       "company_name": "Colgate-Palmolive (India) Ltd",
       "nature_name": "EQUITY",
       "sector_name": "Consumer Staples",
       "instrument_name": "Equity",
       "rating": null,
-      "corpus_per": 0.19
+      "corpus_per": 0.18
     },
     {
       "company_name": "Billionbrains Garage Ventures Ltd.",
@@ -652,7 +652,7 @@
       "corpus_per": 0.18
     },
     {
-      "company_name": "Navneet Education Ltd",
+      "company_name": "LG Electronics India Ltd.",
       "nature_name": "EQUITY",
       "sector_name": "Consumer Discretionary",
       "instrument_name": "Equity",
@@ -660,15 +660,7 @@
       "corpus_per": 0.17
     },
     {
-      "company_name": "Net Current Assets",
-      "nature_name": "CASH",
-      "sector_name": "Unspecified",
-      "instrument_name": "Net Current Assets",
-      "rating": null,
-      "corpus_per": 0.16
-    },
-    {
-      "company_name": "LG Electronics India Ltd.",
+      "company_name": "Navneet Education Ltd",
       "nature_name": "EQUITY",
       "sector_name": "Consumer Discretionary",
       "instrument_name": "Equity",
@@ -681,7 +673,7 @@
       "sector_name": "Materials",
       "instrument_name": "Equity",
       "rating": null,
-      "corpus_per": 0.15
+      "corpus_per": 0.16
     },
     {
       "company_name": "Greenlam Industries Ltd",
@@ -689,15 +681,7 @@
       "sector_name": "Materials",
       "instrument_name": "Equity",
       "rating": null,
-      "corpus_per": 0.14
-    },
-    {
-      "company_name": "Emami Ltd",
-      "nature_name": "EQUITY",
-      "sector_name": "Consumer Staples",
-      "instrument_name": "Equity",
-      "rating": null,
-      "corpus_per": 0.1
+      "corpus_per": 0.13
     },
     {
       "company_name": "Dhanuka Agritech Ltd",
@@ -705,23 +689,7 @@
       "sector_name": "Materials",
       "instrument_name": "Equity",
       "rating": null,
-      "corpus_per": 0.09
-    },
-    {
-      "company_name": "KNR Constructions Ltd",
-      "nature_name": "EQUITY",
-      "sector_name": "Industrials",
-      "instrument_name": "Equity",
-      "rating": null,
-      "corpus_per": 0.05
-    },
-    {
-      "company_name": "Greenpanel Industries Ltd",
-      "nature_name": "EQUITY",
-      "sector_name": "Materials",
-      "instrument_name": "Equity",
-      "rating": null,
-      "corpus_per": 0.04
+      "corpus_per": 0.1
     },
     {
       "company_name": "Jagran Prakashan Ltd",
@@ -729,7 +697,39 @@
       "sector_name": "Industrials",
       "instrument_name": "Equity",
       "rating": null,
+      "corpus_per": 0.03
+    },
+    {
+      "company_name": "Emami Ltd",
+      "nature_name": "EQUITY",
+      "sector_name": "Consumer Staples",
+      "instrument_name": "Equity",
+      "rating": null,
+      "corpus_per": 0.03
+    },
+    {
+      "company_name": "Greenpanel Industries Ltd",
+      "nature_name": "EQUITY",
+      "sector_name": "Materials",
+      "instrument_name": "Equity",
+      "rating": null,
       "corpus_per": 0.02
+    },
+    {
+      "company_name": "KNR Constructions Ltd",
+      "nature_name": "EQUITY",
+      "sector_name": "Industrials",
+      "instrument_name": "Equity",
+      "rating": null,
+      "corpus_per": 0.01
+    },
+    {
+      "company_name": "Net Payables",
+      "nature_name": "CASH",
+      "sector_name": "Unspecified",
+      "instrument_name": "Net Payables",
+      "rating": null,
+      "corpus_per": -0.08
     }
   ],
   "faqs": [
@@ -743,11 +743,11 @@
     },
     {
       "question": "How much expense ratio is charged by HDFC Mid Cap Fund Direct Growth?",
-      "answer": "The term Expense Ratio used for HDFC Mid Cap Fund Direct Growth or any other mutual fund is the annual charges one needs to pay to the Mutual Fund company for managing your investments in that fund. The Expense Ratio of HDFC Mid Cap Fund Direct Growth is 0.76% as of 09 Oct 2026..."
+      "answer": "The term Expense Ratio used for HDFC Mid Cap Fund Direct Growth or any other mutual fund is the annual charges one needs to pay to the Mutual Fund company for managing your investments in that fund. The Expense Ratio of HDFC Mid Cap Fund Direct Growth is 0.76% as of 10 Oct 2026..."
     },
     {
       "question": "What is the AUM of HDFC Mid Cap Fund Direct Growth?",
-      "answer": "The AUM, short for Assets Under Management of HDFC Mid Cap Fund Direct Growth is ₹1,08,324.54Cr as of 09 Oct 2026."
+      "answer": "The AUM, short for Assets Under Management of HDFC Mid Cap Fund Direct Growth is ₹1,01,856.06Cr as of 10 Oct 2026."
     },
     {
       "question": "How to Redeem HDFC Mid Cap Fund Direct Growth?",
@@ -759,7 +759,7 @@
     },
     {
       "question": "What is the NAV of HDFC Mid Cap Fund Direct Growth?",
-      "answer": "The NAV of HDFC Mid Cap Fund Direct Growth is ₹217.08 as of 08 Oct 2026."
+      "answer": "The NAV of HDFC Mid Cap Fund Direct Growth is ₹219.82 as of 09 Oct 2026."
     },
     {
       "question": "What is the PE and PB ratio of HDFC Mid Cap Fund Direct Growth?",
