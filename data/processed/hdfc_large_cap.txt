@@ -10,8 +10,8 @@
 - **Lock-in Period**: None
 
 ## Fund Metrics
-- **Current NAV**: ₹1169.419 (as of 15-Oct-2026)
-- **Expense Ratio**: 1.04%
+- **Current NAV**: ₹1172.671 (as of 16-Oct-2026)
+- **Expense Ratio**: 1.02%
 - **Assets Under Management (AUM)**: ₹37,293.9508 Cr
 - **Minimum Investment (Lumpsum)**: ₹100
 - **Minimum SIP Investment**: ₹100
@@ -94,10 +94,10 @@ A: You can easily invest in HDFC Large Cap Fund Direct Growth in a hassle-free m
 A: The HDFC Large Cap Fund Direct Growth has been there from 01 Jan 2013 and the average annual returns provided by this fund is 12.55% since its inception.
 
 ### Q: How much expense ratio is charged by HDFC Large Cap Fund Direct Growth?
-A: The term Expense Ratio used for HDFC Large Cap Fund Direct Growth or any other mutual fund is the annual charges one needs to pay to the Mutual Fund company for managing your investments in that fund. The Expense Ratio of HDFC Large Cap Fund Direct Growth is 1.04% as of 16 Oct 2026...
+A: The term Expense Ratio used for HDFC Large Cap Fund Direct Growth or any other mutual fund is the annual charges one needs to pay to the Mutual Fund company for managing your investments in that fund. The Expense Ratio of HDFC Large Cap Fund Direct Growth is 1.02% as of 17 Oct 2026...
 
 ### Q: What is the AUM of HDFC Large Cap Fund Direct Growth?
-A: The AUM, short for Assets Under Management of HDFC Large Cap Fund Direct Growth is ₹37,293.95Cr as of 16 Oct 2026.
+A: The AUM, short for Assets Under Management of HDFC Large Cap Fund Direct Growth is ₹37,293.95Cr as of 17 Oct 2026.
 
 ### Q: How to Redeem HDFC Large Cap Fund Direct Growth?
 A: If you want to sell your HDFC Large Cap Fund Direct Growth holdings, go to your holding on the app or web and simply click on it. You will get two options - redeem & invest more; click on redeem and enter your desired amount or if you wish to redeem the entire holding amount then select the 'redeem all' checkbox.
@@ -106,7 +106,7 @@ A: If you want to sell your HDFC Large Cap Fund Direct Growth holdings, go to yo
 A: You can select either SIP or Lumpsum investment of HDFC Large Cap Fund Direct Growth based on your investment objective and risk tolerance.
 
 ### Q: What is the NAV of HDFC Large Cap Fund Direct Growth?
-A: The NAV of HDFC Large Cap Fund Direct Growth is ₹1,169.42 as of 15 Oct 2026.
+A: The NAV of HDFC Large Cap Fund Direct Growth is ₹1,172.67 as of 16 Oct 2026.
 
 ### Q: What is the PE and PB ratio of HDFC Large Cap Fund Direct Growth?
 A: The PE ratio ratio of HDFC Large Cap Fund Direct Growth is determined by dividing the market price by its earnings per share and the PB ratio of the same is evaluated by dividing the stock price per share by its book value per share (BVPS).
